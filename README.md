@@ -29,7 +29,7 @@ To create a trigger handler, you simply need to create a class that inherits fro
 public class OpportunityTriggerHandler extends TriggerHandler {
 ```
 
-In your trigger handler, to add logic to any of the trigger contexts, you only need to override them in your trigger handler. Here is how we would add logic to a `beforeUpdate` trigger.
+In your trigger handler, to add logic to any of the trigger contexts, you only need to override them in your trigger handler. Here is how we would add logic to a `beforeUpdate` trigger. 
 
 ```java
 public class OpportunityTriggerHandler extends TriggerHandler {
